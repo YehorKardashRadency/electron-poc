@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Overview - Includes</title>
+    <meta name="author" content="Septentrio Satellite Navigation" />
+    <meta name="copyright" content="2014 Septentrio Satellite Navigation NV/SA, Belgium" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="copyright" href="#copyright" />
+    <link rel="made" href="mailto:info@septentrio.com" />
+
+    <style type="text/css">
+    body, #header, #content, #footer
+    {
+        background-color: #fff;
+        font-family: serif;
+        font-size: 12pt;
+        color: #000;
+    }
+
+    /* sections layout */
+    #header h1
+    {
+        text-align: center;
+    }
+
+    #content p
+    {
+        font-size: 12pt;
+        margin-left: 30px;
+    }
+
+    #content h3, h4
+    {
+        margin-left: 15px;
+    }
+
+    #content pre
+    {
+        font-size: 10pt;
+        color: #800000;
+        margin-left: 30px;
+    }
+
+    #content table
+    {
+        margin-left: 30px;
+    }
+
+    /* tables */
+    .optionset, .description
+    {
+        font-family: serif;
+        font-size: 12pt;
+        color: #000000;
+        background-color: #ffffff;
+        vertical-align: top;
+        text-align: left;
+    }
+
+    .option
+    {
+        font-family: monospace;
+        font-size: 10pt;
+        color: #000000;
+        background-color: #ffffff;
+        vertical-align: top;
+        text-align: left;
+        width: 200px;
+    }
+
+    .info
+    {
+        font-family: serif;
+        font-size: 12pt;
+        color: #000000;
+        background-color: #ffffff;
+        vertical-align: top;
+        text-align: left;
+        width: 200px;
+    }
+
+    .fixedfont
+    {
+        font-family: monospace;
+        font-size: 10pt;
+        color: #000000;
+        background-color: #ffffff;
+    }
+    </style>
+</head>
+<body>
+
+    <!-- page -->
+    <div id="page">
+
+        <!-- header -->
+        <div id="header">
+
+            <h1>Overview - Includes</h1>
+            <hr />
+
+        </div>
+        <!-- / header -->
+
+        <!-- content -->
+        <div id="content">
+
+            <h2>Table Of Contents</h2>
+
+            <ol>
+                <li><a href="#toc_introduction">Introduction</a></li>
+                <li><a href="#toc_headers">Headers</a></li>
+            </ol>
+
+            <h2 id="toc_introduction">1 Introduction</h2>
+
+            This document will give an overview of the source files that ship
+            with the <em>Post Processing SDK</em>.</p>
+
+            <h2 id="toc_headers">2 Headers</h2>
+
+            <p>The following table lists the header files which are included in
+            the <em>Post Processing SDK API</em>.</p>
+
+            <table rules="all">
+                <thead>
+                    <tr>
+                        <th>File</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="option">basefinderconstellations.h</td>
+                        <td class="description">Contains constellation definitions to be used in BaseFinder</td>
+                    </tr>
+                    <tr>
+                        <td class="option">mscinttypes.h</td>
+                        <td class="description">ISO C9x compliant inttypes.h for Microsoft Visual Studio</td>
+                    </tr>
+                    <tr>
+                        <td class="option">mscssntypes.h</td>
+                        <td class="description">Declaration of Septentrio types for Microsoft C/C++ compiler</td>
+                    </tr>
+                    <tr>
+                        <td class="option">mscstdint.h</td>
+                        <td class="description">ISO C9x compliant stdint.h for Microsoft Visual Studio</td>
+                    </tr>
+                    <tr>
+                        <td class="option">sbfdef.h</td>
+                        <td class="description">Declarations of SBF (Septentrio Binary Format) blocks</td>
+                    </tr>
+                    <tr>
+                        <td class="option">sbfsigtypes.h</td>
+                        <td class="description">Declaration of the GNSS signal types used in sbfdef.h</td>
+                    </tr>
+                    <tr>
+                        <td class="option">snmpclient.h</td>
+                        <td class="description">S)imple (N)etwork (M)anagement (P)rotocol client</td>
+                    </tr>
+                    <tr>
+                        <td class="option">snmptypes.h</td>
+                        <td class="description">(S)imple (N)etwork (M)anagement (P)rotocol type description</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnbasefinder.h</td>
+                        <td class="description">API of the BaseFinder module</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnenv.h</td>
+                        <td class="description">Declaration of Septentrio retrieval of Enviroment Settings.</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnerror.h</td>
+                        <td class="description">Declaration of types, macros and functions used by the SSN error module</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssngetop.h</td>
+                        <td class="description">Septentrio's own implementation of the Posix "getopt()" function</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnhandle.h</td>
+                        <td class="description">SSN safe handle declaration</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnppengine.h</td>
+                        <td class="description">The Post Processing Engine</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnprogressbar.h</td>
+                        <td class="description">Septentrio's implementation of a textual progress bar</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnrnxdec.h</td>
+                        <td class="description">RINEX decoder functionality</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnsbfanalyze.h</td>
+                        <td class="description">Septentrio SBF Analysis library</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnsbfstream.h</td>
+                        <td class="description">The SBF stream module provides easy manipulation of SBF files</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssnsdk.h</td>
+                        <td class="description">SSN SDK module declaration</td>
+                    </tr>
+                    <tr>
+                        <td class="option">ssntypes.h</td>
+                        <td class="description">Declaration of Septentrio types</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <!-- / content -->
+
+        <!-- footer -->
+        <div id="footer">
+
+            <hr />
+            <address id="copyright">
+                <a href="mailto:info@septentrio.com" shape="rect">Septentrio Satellite Navigation</a><br />
+                Copyright (c) 2019 Septentrio Satellite Navigation NV/SA, Belgium
+            </address>
+
+        </div>
+        <!-- / footer -->
+
+    </div>
+    <!-- / page -->
+
+</body>
+</html>
